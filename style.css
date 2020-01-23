@@ -1,0 +1,32 @@
+navbar {
+    display: flex;
+    justify-content: space-between;
+    background: orange;
+    margin: 15px;
+}
+
+.container {
+    background-color: rgb(255, 197, 88);
+}
+
+.welcome h1,
+h2 {
+    text-align: center;
+}
+
+.welcome .centered {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.content>.news {
+    flex: 1;
+    text-align: center;
+}
